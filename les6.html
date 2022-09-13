@@ -7,7 +7,26 @@
 	<title>Document</title>
 </head>
 <body>
-	<header>
+	<div class="main-nav">
+		<div class="container">
+			<div class="mobile-toggle">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Works</a></li>
+					<li><a href="#team">Teams</a></li>
+					<li><a href="#testimonials">Testimonials</a></li>
+					<li><a href="#contacts">Contacts</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<header id="header">
 		<h1>Interior Design Studio</h1>
 		<h2>We create things you like</h2>
 	</header>
@@ -26,7 +45,7 @@
 					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus eveniet voluptatem minima nostrum deleniti temporibus eius! Odio, neque earum architecto veritatis possimus nobis fugiat, vitae pariatur assumenda labore eaque vel!</p>
 				</div>
 				<div class="column-2">
-					<img src="img/about.jpg" alt="about us">
+					<img src="img/about.jpg" alt="about us" class="">
 				</div>
 			</div>
 		</div>
@@ -134,7 +153,6 @@
 						<label for="usermessage">Message</label>
 						<textarea name="usermessage" id="usermessage"></textarea>
 					</p>
-					
 					<p>
 						<input type="submit" class="btn" value="SUBMIT">
 					</p>
@@ -142,5 +160,27 @@
 			</div>
 		</div>
 	</section>
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div>
+					<p>Photos from <a href="#">unsplash.com</a></p>
+				</div>
+				<div>
+					<p>
+						<a href="#header">Home</a>
+						<a href="#about">About</a>
+						<a href="#portfolio">Works</a>
+						<a href="#team">Teams</a>
+						<a href="#testimonials">Testimonials</a>
+						<a href="#contacts">Contact</a>
+					</p>
+				</div>
+				<div>
+					<p>Info from <a href="#">html-plus.in.ru</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
